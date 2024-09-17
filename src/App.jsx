@@ -10,8 +10,9 @@ import Footer from './components/Footer';
 
 function App() {
   return (
-      <div>
-        <Header />
+    <div className="app-container">
+      <Header />
+      <div className="app-content">
         <Routes>
           <Route path="/" element={<Inicio />} />
           <Route path="/perfil" element={<Perfil />} />
@@ -19,8 +20,9 @@ function App() {
           <Route path="/social" element={<Social />} />
           <Route path="/inicioSesion" element={<InicioSesion />} />
         </Routes>
-        <Footer />
       </div>
+      <Footer />
+    </div>
   );
 }
 
