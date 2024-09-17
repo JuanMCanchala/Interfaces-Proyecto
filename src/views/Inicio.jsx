@@ -14,6 +14,7 @@ const Inicio = () => {
   ];
 
   return (
+
     <div className="inicio-container">
       <aside className="hobbies-list">
         <h3>Tus Hobbies</h3>

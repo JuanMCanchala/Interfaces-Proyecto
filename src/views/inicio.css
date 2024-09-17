@@ -1,3 +1,17 @@
+.inicio-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: calc(100vh - 80px); 
+}
+
+.inicio-container {
+  flex: 1;
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  overflow: auto; 
+}
 .inicio-container {
     display: flex;
     gap: 20px;
