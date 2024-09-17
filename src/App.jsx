@@ -1,4 +1,5 @@
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { Routes, Route } from "react-router-dom";
+import './App.css'
 import InicioSesion from './views/InicioSesion';
 import Perfil from './views/Perfil';
 import Calendario from './views/Calendario';
@@ -8,7 +9,6 @@ import Footer from './components/Footer';
 
 function App() {
   return (
-    <Router>
       <div>
         <Header />
         <Routes>
@@ -19,7 +19,6 @@ function App() {
         </Routes>
         <Footer />
       </div>
-    </Router>
   );
 }
 
