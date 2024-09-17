@@ -86,14 +86,3 @@
     background-color: #f0f0f0;
   }
   
-  /* Responsive layout for mobile */
-  @media (max-width: 768px) {
-    .nav-links {
-      display: none;
-    }
-  
-    .hamburger-menu {
-      display: flex;
-    }
-  }
-  

@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import './InicioSesion.css'; // Archivo de estilos
+import './inicioSesion.css'; // Archivo de estilos
 
 const InicioSesion = () => {
   const [username, setUsername] = useState('');

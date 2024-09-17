@@ -52,7 +52,7 @@ const Perfil = () => {
             rows="5"
           ></textarea>
         ) : (
-          <p>{aboutMe}</p>
+          <div className="about-me"><p>{aboutMe}</p></div>
         )}
         <button onClick={handleEditAboutMe}>
           {isEditing ? 'Guardar' : 'Editar'}
