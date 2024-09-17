@@ -1,0 +1,30 @@
+.footer {
+    background-color: #5a55ea; /* Fondo morado similar al header */
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .footer-content {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px; 
+  }
+  
+  .footer-email, .footer-phone {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+  }
+  
+  .footer-email:hover, .footer-phone:hover {
+    text-decoration: underline;
+  }
+  
+  .footer-phone::before {
+    content: "\260E"; 
+    margin-right: 8px;
+  }
+  
