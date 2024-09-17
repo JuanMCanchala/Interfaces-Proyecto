@@ -23,9 +23,8 @@ const Header = () => {
       <nav className="nav-links">
         <Link to="/">Inicio</Link>
         <Link to="/calendario">Calendario</Link>
-        <Link to="/social">Social</Link>
+        <Link to="/inicio">Social</Link>
         <Link to="/perfil">Perfil</Link>
-        <Link to="/inicioSesion">Iniciar Sesion</Link>
       </nav>
       
       <div className="hamburger-menu" onClick={toggleMenu}>
@@ -38,7 +37,7 @@ const Header = () => {
         <div className="dropdown-menu">
           <Link to="/">Inicio</Link>
           <Link to="/calendario">Calendario</Link>
-          <Link to="/inicioSesion">Iniciar sesion</Link>
+          <Link to="/inicio">Social</Link>
           <Link to="/perfil">Perfil</Link>
         </div>
       )}
