@@ -3,6 +3,7 @@ import './App.css'
 import InicioSesion from './views/InicioSesion';
 import Perfil from './views/Perfil';
 import Calendario from './views/Calendario';
+import Social from './views/social';
 import Inicio from './views/Inicio';
 import Header from './components/Header';
 import Footer from './components/Footer';
@@ -12,10 +13,11 @@ function App() {
       <div>
         <Header />
         <Routes>
-          <Route path="/" element={<InicioSesion />} />
+          <Route path="/" element={<Inicio />} />
           <Route path="/perfil" element={<Perfil />} />
           <Route path="/calendario" element={<Calendario />} />
-          <Route path="/inicio" element={<Inicio />} />
+          <Route path="/social" element={<Social />} />
+          <Route path="/inicioSesion" element={<InicioSesion />} />
         </Routes>
         <Footer />
       </div>
