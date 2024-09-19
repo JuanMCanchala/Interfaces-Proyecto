@@ -14,7 +14,7 @@ const InicioSesion = () => {
   return (
     <div className="login-container">
       <div className="login-image">
-        <img src="https://via.placeholder.com/300" alt="Imagen de hobbies" />
+        <img src="/src/image/image6.png" alt="Imagen de hobbies" />
       </div>
       <div className="login-form">
         <h1>HO</h1>

@@ -18,7 +18,7 @@
   padding: 15px;
   border-bottom: 1px solid #5a55ea;
   cursor: pointer;
-  transition: background-color 0.3s;
+  
 }
 
 .social-page .contact:hover {
@@ -50,7 +50,7 @@
 .social-page .messages {
   flex-grow: 1;
   overflow-y: auto;
-  margin-bottom: 10px; /* Añadir espacio entre los mensajes y la caja de texto */
+  margin-bottom: 10px; 
 }
 
 .social-page .message {
@@ -81,7 +81,7 @@
   position: sticky;
   bottom: 0;
   z-index: 10;
-  margin-bottom: 100px; /* Espacio extra sobre el footer */
+  margin-bottom: 100px; 
 }
 
 .social-page input {

@@ -63,6 +63,16 @@
     border-radius: 5px;
     cursor: pointer;
   }
+  .view-more {
+    display: block;
+    margin: 50px auto;
+    padding: 5px 15px;
+    background-color: #5a55ea;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
   
   .hobbies-main, .hobbies-more {
     flex: 3;
