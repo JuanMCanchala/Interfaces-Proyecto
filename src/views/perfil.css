@@ -1,3 +1,7 @@
+.name-profile {
+  margin-top: 10px;
+}
+
 .profile-container {
     width: 800px;
     margin: 0 auto;
@@ -40,12 +44,13 @@
   
   .profile-details {
     flex: 1;
+    margin-top: 40px;
   }
   
   .profile-details h2 {
     font-size: 2rem;
     color: #5a55ea;
-    margin: 0;
+
   }
   
   .profile-details p {
@@ -114,3 +119,4 @@
   .about-me {
     color: #000000;
   }
+

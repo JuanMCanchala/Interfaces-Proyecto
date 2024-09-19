@@ -35,7 +35,7 @@ const Perfil = () => {
           <input type="file" onChange={handleImageChange} />
         </div>
         <div className="profile-details">
-          <h2>Canchala F</h2>
+          <h2 className='name-profile'>Canchala F</h2>
           <p>@canchala_F</p>
           <div className="profile-stats">
             <span>170 seguidores</span> | <span>200 siguiendo</span>
