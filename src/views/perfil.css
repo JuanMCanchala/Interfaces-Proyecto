@@ -2,7 +2,7 @@
   margin-top: 10px;
 }
 
-.profile-container {
+.profile-cont {
     width: 1200px;
     margin: 0 auto;
     font-family: Arial, sans-serif;
@@ -25,19 +25,19 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
   
-  .profile-picture {
+  .profile-pic {
     position: relative;
     margin-right: 20px;
   }
   
-  .profile-picture img {
+  .profile-pic img {
     width: 150px;
     height: 150px;
     border-radius: 50%;
     border: 3px solid white;
   }
   
-  .profile-picture input {
+  .profile-pic input {
     display: block;
     margin-top: 10px;
   }
