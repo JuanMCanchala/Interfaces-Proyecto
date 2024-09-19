@@ -1,4 +1,4 @@
-import './social.css'; // Crea el archivo de estilos
+import './social.css'; 
 
 const Social = () => {
 

@@ -2,7 +2,7 @@ import { useState } from 'react';
 import './perfil.css';
 
 const Perfil = () => {
-  const [image, setImage] = useState('https://via.placeholder.com/150'); // Imagen de perfil por defecto
+  const [image, setImage] = useState('https://via.placeholder.com/150'); 
   const [aboutMe, setAboutMe] = useState(
     'Soy Juan Manuel Canchala y me gusta mucho el ajedrez, lamentablemente me he vuelto adicto a los Uvas de programación, así que dedico mi vida a hacer feliz a Carlos Ramirez.'
   );

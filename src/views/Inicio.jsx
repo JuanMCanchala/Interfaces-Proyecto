@@ -1,4 +1,4 @@
-import './inicio.css'; // Crea el archivo de estilos
+import './inicio.css'; 
 
 const Inicio = () => {
   const hobbies = [

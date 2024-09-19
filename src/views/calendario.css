@@ -1,8 +1,8 @@
-.calendar-container {
-  width: 100%;
-  max-width: 1300px;
-  margin: 0 auto;
-}
+  .calendar-container {
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+  }
   .current-day {
     background-color: #5a55ea;
     color: white;

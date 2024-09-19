@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import './inicioSesion.css'; // Archivo de estilos
+import './inicioSesion.css'; 
 
 const InicioSesion = () => {
   const [username, setUsername] = useState('');
@@ -9,7 +9,6 @@ const InicioSesion = () => {
     e.preventDefault();
     console.log('Usuario:', username);
     console.log('Contraseña:', password);
-    // Aquí puedes agregar lógica de autenticación
   };
 
   return (
