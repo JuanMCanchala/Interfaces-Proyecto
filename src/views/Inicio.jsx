@@ -8,9 +8,12 @@ const Inicio = () => {
   ];
 
   const popularHobbies = [
-    { title: 'Fotografía', participants: 300, image: 'https://via.placeholder.com/150' },
-    { title: 'Películas', participants: 700, image: 'https://via.placeholder.com/150' },
-    { title: 'Beisbol', participants: 600, image: 'https://via.placeholder.com/150' }
+    { title: 'Fotografía', participants: 300, image: '/src/image/image1.png' },
+    { title: 'Películas', participants: 700, image: '/src/image/image2.png' },
+    { title: 'Beisbol', participants: 600, image: '/src/image/image3.png' },
+    { title: 'Fotografía', participants: 300, image: '/src/image/image1.png' },
+    { title: 'Películas', participants: 700, image: '/src/image/image2.png' },
+    { title: 'Beisbol', participants: 600, image: '/src/image/image3.png' }
   ];
 
   return (
@@ -42,21 +45,8 @@ const Inicio = () => {
             </div>
           ))}
         </div>
+        <button className="view-more">Ver mas..</button>
       </main>
-
-      <section className="hobbies-more">
-        <h3>Ver más...</h3>
-        <div className="hobbies-popular">
-          {popularHobbies.map((hobby, index) => (
-            <div className="hobby-card" key={index}>
-              <img src={hobby.image} alt={hobby.title} />
-              <h4>{hobby.title}</h4>
-              <p>Participantes: {hobby.participants}</p>
-              <button className="join-btn">Unirse</button>
-            </div>
-          ))}
-        </div>
-      </section>
     </div>
   );
 };

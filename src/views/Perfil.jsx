@@ -27,7 +27,7 @@ const Perfil = () => {
   return (
     <div className="profile-container">
       <div className="cover-photo">
-        <img src="https://via.placeholder.com/800x200" alt="Foto de portada" />
+        <img src="/src/image/image4.png" alt="Foto de portada" />
       </div>
       <div className="profile-info">
         <div className="profile-picture">
