@@ -1,117 +1,113 @@
-.inicio-wrapper {
+.social-page .social-container {
   display: flex;
-  flex-direction: column;
-  min-height: calc(100vh - 80px); 
+  height: 100vh;
+  background-color: white;
 }
 
-.inicio-container {
-  flex: 1;
-  display: flex;
-  gap: 20px;
+.social-page .contact-list {
+  width: 25%;
+  background-color: white;
   padding: 20px;
-  font-family: Arial, sans-serif;
-  overflow: auto; 
+  box-sizing: border-box;
+  border-right: 2px solid #5a55ea;
 }
-.inicio-container {
-    display: flex;
-    gap: 20px;
-    padding: 20px;
-    font-family: Arial, sans-serif;
-  }
-  
-  .hobbies-list {
-    flex: 1;
-    background-color: #f5f5f5;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
-  
-  .hobbies-list h3 {
-    color: #5a55ea;
-    font-size: 1.5rem;
-    margin-bottom: 20px;
-  }
-  
-  .hobby-item {
-    background-color: white;
-    padding: 15px;
-    border-radius: 10px;
-    margin-bottom: 10px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    text-align: center;
-  }
-  
-  .hobby-item p {
-    font-weight: bold;
-    margin-bottom: 10px;
-    color: #5a55ea;
-  }
-  
-  .hobby-details {
-    font-size: 0.9rem;
-    color: gray;
-  }
-  
-  .view-all {
-    display: block;
-    margin: 20px auto;
-    padding: 10px 20px;
-    background-color: #5a55ea;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  .hobbies-main, .hobbies-more {
-    flex: 3;
-  }
-  
-  .hobbies-main h3, .hobbies-more h3 {
-    color: #5a55ea;
-    font-size: 1.5rem;
-    margin-bottom: 20px;
-    text-align: center;
-  }
-  
-  .hobbies-popular {
-    display: flex;
-    justify-content: space-around;
-  }
-  
-  .hobby-card {
-    background-color: white;
-    width: 200px;
-    border-radius: 10px;
-    text-align: center;
-    padding: 15px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
-  
-  .hobby-card img {
-    width: 100%;
-    border-radius: 10px;
-    margin-bottom: 10px;
-  }
-  
-  .hobby-card h4 {
-    color: #5a55ea;
-    font-size: 1.2rem;
-    margin-bottom: 10px;
-  }
-  
-  .hobby-card p {
-    color: black;
-    margin-bottom: 10px;
-  }
-  
-  .join-btn {
-    padding: 8px 15px;
-    background-color: #5a55ea;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
+
+.social-page .contact {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  border-bottom: 1px solid #5a55ea;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.social-page .contact:hover {
+  background-color: #bbdefb;
+}
+
+.social-page .profile-picture {
+  width: 45px;
+  height: 45px;
+  background-color: #5a55ea;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.social-page .contact p {
+  color: #5a55ea;
+}
+
+.social-page .chat-box {
+  width: 75%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.social-page .messages {
+  flex-grow: 1;
+  overflow-y: auto;
+  margin-bottom: 10px; /* Añadir espacio entre los mensajes y la caja de texto */
+}
+
+.social-page .message {
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 20px;
+  max-width: 60%;
+  color: white;
+}
+
+.social-page .sent {
+  background-color: #5a55ea;
+  align-self: flex-end;
+}
+
+.social-page .received {
+  background-color: #807cee;
+  align-self: flex-end;
+}
+
+.social-page .input-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #c1bff4;
+  border-radius: 25px;
+  position: sticky;
+  bottom: 0;
+  z-index: 10;
+  margin-bottom: 100px; /* Espacio extra sobre el footer */
+}
+
+.social-page input {
+  width: 85%;
+  padding: 10px;
+  border-radius: 20px;
+  border: 2px solid #1e88e5;
+  font-size: 16px;
+  outline: none;
+}
+
+.social-page input:focus {
+  border-color: #42a5f5;
+}
+
+.social-page .send-button {
+  width: 10%;
+  background-color: #5a55ea;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.social-page .send-button:hover {
+  background-color: #42a5f5;
+}
