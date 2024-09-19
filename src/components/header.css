@@ -3,7 +3,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #5a55ea; /* El color de fondo que se observa en la imagen */
+    background-color: #5a55ea; 
     padding: 10px;
     position: relative;
   }

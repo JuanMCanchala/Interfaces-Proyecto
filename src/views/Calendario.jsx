@@ -14,9 +14,9 @@ const Calendario = () => {
   const daysOfWeek = ['Domingo', 'Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes', 'Sábado'];
 
   const events = [
-    { date: new Date(2024, 8, 2), title: 'Gym' }, // Septiembre (8), día 2
-    { date: new Date(2024, 8, 4), title: 'Gym' }, // Septiembre (8), día 4
-    { date: new Date(2024, 8, 5), title: 'Fotografía' }, // Septiembre (8), día 5
+    { date: new Date(2024, 8, 2), title: 'Gym' }, 
+    { date: new Date(2024, 8, 4), title: 'Gym' }, 
+    { date: new Date(2024, 8, 5), title: 'Fotografía' },
     // Puedes agregar más eventos aquí
   ];
 
