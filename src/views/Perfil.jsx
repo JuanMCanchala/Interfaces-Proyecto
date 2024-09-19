@@ -25,12 +25,12 @@ const Perfil = () => {
   };
 
   return (
-    <div className="profile-container">
+    <div className="profile-cont">
       <div className="cover-photo">
         <img src="/src/image/image4.png" alt="Foto de portada" />
       </div>
       <div className="profile-info">
-        <div className="profile-picture">
+        <div className="profile-pic">
           <img src={image} alt="Perfil" />
           <input type="file" onChange={handleImageChange} />
         </div>
